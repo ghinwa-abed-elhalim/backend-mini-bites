@@ -22,4 +22,6 @@ UPDATE Task
 SET status = 'done'
 WHERE id = 1;
 
+DELETE FROM Task
+WHERE id = 1; 
 
