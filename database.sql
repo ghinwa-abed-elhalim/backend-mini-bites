@@ -8,3 +8,7 @@ CREATE TABLE Task (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     priority INT
 );
+
+INSERT INTO Task (ToDoList_id, title, description, status, due_date, priority)
+VALUES (1, 'Complete final project', 'Submit the final project', 'pending', '2025-04-21', 2);
+
