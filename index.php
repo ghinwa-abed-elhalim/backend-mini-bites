@@ -27,3 +27,13 @@ function groupStatus(array $tasks): array {
     }
     return $groupedTasks;
 }
+
+echo"";
+$result_1 = filterStatus($tasks, "done");
+print_r($result_1);
+
+echo "";    
+$result_2 = groupStatus($tasks);
+print_r($result_2);
+
+?>
