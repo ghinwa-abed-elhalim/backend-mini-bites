@@ -12,3 +12,8 @@ CREATE TABLE Task (
 INSERT INTO Task (ToDoList_id, title, description, status, due_date, priority)
 VALUES (1, 'Complete final project', 'Submit the final project', 'pending', '2025-04-21', 2);
 
+SELECT * FROM Task
+WHERE status = 'pending';
+
+SELECT * FROM Task
+WHERE ToDoList_id = 1;
