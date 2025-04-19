@@ -27,3 +27,8 @@ WHERE id = 1;
 
 SELECT * FROM Task
 WHERE due_date < '2025-04-30';
+
+SELECT COUNT(*) AS done_tasks_count
+FROM Task t
+JOIN ToDoList td ON t.ToDoList_id = td.id
+WHERE t.status = 'done' AND td.user_id = 1;
