@@ -17,3 +17,9 @@ WHERE status = 'pending';
 
 SELECT * FROM Task
 WHERE ToDoList_id = 1;
+
+UPDATE Task
+SET status = 'done'
+WHERE id = 1;
+
+
